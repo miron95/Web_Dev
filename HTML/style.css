@@ -1,0 +1,77 @@
+header { 
+    
+    margin: 0px;
+    height: auto;
+    background-color: lightblue;
+}
+.body-div {
+    font-family: monospace;
+    font-size: 32px; 
+}
+#logo {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin: -10px 40px;
+}
+h1 {
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 32px;
+    text-align: center;
+    padding: 50px 20%;
+    background-color: rgb(190, 221, 213);
+    height: 100px;
+}
+/*прописываем кнопки навигации и анимацию для них*/
+a {
+    text-decoration: none;
+    color: dimgray;
+    transition: 1s;
+}
+.button-nav {
+    /* padding: 1em; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em ;
+}
+a:hover{
+    background-color: rgb(129, 212, 129);
+    transition: 0.8s;
+
+}
+/*прописываем содержание*/
+main {
+   /* margin-left: 14%; если навигацию делать слева*/
+    
+    background-color: rgb(36, 224, 214);
+    font-size: 0.73em;
+    line-height: 2;
+    padding: 1em 6em;
+    
+    
+}
+.main-p {
+    /* padding-left: 12%; если навигацию делать слева*/
+    text-align: center;
+    margin-top: 1.8em;   
+}
+.about-p {
+    
+    text-align: justify;
+    margin-top: 1.8em;
+    
+}
+.contacts {
+    margin-top: 2em;
+    display: block;
+    background-color: rgb(141, 247, 197);
+    padding: 1em;
+    
+    
+}
+footer {
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 1em;
+}
