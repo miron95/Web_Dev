@@ -4,6 +4,9 @@ header {
     height: auto;
     background-color: lightblue;
 }
+body {
+    margin: 0px;
+}
 .body-div {
     font-family: monospace;
     font-size: 32px; 
@@ -22,6 +25,9 @@ h1 {
     padding: 50px 20%;
     background-color: rgb(190, 221, 213);
     height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
 }
 /*прописываем кнопки навигации и анимацию для них*/
 a {
@@ -48,7 +54,7 @@ main {
     background-color: rgb(36, 224, 214);
     font-size: 0.73em;
     line-height: 2;
-    padding: 1em 6em;
+    padding: 1em 3.5em;
     
     
 }
